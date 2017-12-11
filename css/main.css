@@ -1,0 +1,79 @@
+html{
+    min-height: 100%;
+}
+
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    padding: 0px;
+    height: 100vh;
+}
+@font-face {
+    font-family: 'AppleLiGothic';
+    src: url('fonts/AppleLiGothicMedium.ttf') format('ttf');
+  }
+
+.canvas{
+    height: 100vh;
+    background-image: url("../img/bgimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-top {
+    background-color: transparent;
+    box-shadow: none;
+    align-self: flex-start;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.brand-logo{
+    font-family: 'Inconsolata', monospace;
+}
+
+#logo-img{
+    vertical-align: middle;
+    width: 55px;
+}
+.banner{
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+    font-family:  Courier, 'Inconsolata', monospace;  
+}
+.banner-content{
+    padding-top: 100px; 
+}
+
+input[type=search] , input[type=search]:focus{
+    background-color: transparent;
+    /* border: none !important; */
+    border: 1px solid #fff !important;
+    border-radius: 10px !important;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 5px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+
+}
+
+input[type=search]:focus {
+    border-bottom: none !important ;
+    box-shadow: none !important;
+    background-color: rgba(0,0,0, .3) !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+    padding-left: 20px;
+    
+  }
+
+
+
